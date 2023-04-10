@@ -48,3 +48,51 @@ cerrar_l1_mh.addEventListener('click' ,function(){
     overlay_l1_mh.classList.remove('active');
     popup_l1_mh.classList.remove('active');
 });
+
+
+var btn_l2_mh = document.getElementById("btn_l2_mh"),
+    overlay_l2_mh = document.getElementById("overlay_l2_mh"),
+    popup_l2_mh = document.getElementById("popup_l2_mh"),
+    cerrar_l2_mh = document.getElementById("cerrar_l2_mh");
+
+    btn_l2_mh.addEventListener('mousedown', function(){
+    overlay_l2_mh.classList.add('active');
+    popup_l2_mh.classList.add('active');
+});
+
+cerrar_l2_mh.addEventListener('click' ,function(){
+    overlay_l2_mh.classList.remove('active');
+    popup_l2_mh.classList.remove('active');
+});
+
+
+var btn_l3_mh = document.getElementById("btn_l3_mh"),
+    overlay_l3_mh = document.getElementById("overlay_l3_mh"),
+    popup_l3_mh = document.getElementById("popup_l3_mh"),
+    cerrar_l3_mh = document.getElementById("cerrar_l3_mh");
+
+    btn_l3_mh.addEventListener('mousedown', function(){
+    overlay_l3_mh.classList.add('active');
+    popup_l3_mh.classList.add('active');
+});
+
+cerrar_l3_mh.addEventListener('click' ,function(){
+    overlay_l3_mh.classList.remove('active');
+    popup_l3_mh.classList.remove('active');
+});
+
+
+var btn_l4_mh = document.getElementById("btn_l4_mh"),
+    overlay_l4_mh = document.getElementById("overlay_l4_mh"),
+    popup_l4_mh = document.getElementById("popup_l4_mh"),
+    cerrar_l4_mh = document.getElementById("cerrar_l4_mh");
+
+    btn_l4_mh.addEventListener('mousedown', function(){
+    overlay_l4_mh.classList.add('active');
+    popup_l4_mh.classList.add('active');
+});
+
+cerrar_l4_mh.addEventListener('click' ,function(){
+    overlay_l4_mh.classList.remove('active');
+    popup_l4_mh.classList.remove('active');
+});
